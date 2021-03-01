@@ -20,7 +20,7 @@ from models.aos_questions_and_answer.dataset.elective_courses_questions.computer
     cn_total_questions_and_answer, cos_845_selected_six_random, cos_829_selected_six_random, \
     cos_852_selected_six_random, cos_850_selected_six_random
 from models.forms.forms import SelectElectiveCourses, QuestionForm
-from sklearn.externals import joblib
+import joblib
 from models.Prediction.Prediction import predict_grade_range
 import pandas as pd
 

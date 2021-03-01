@@ -5,7 +5,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.externals import joblib
+import joblib
 from sklearn.utils import column_or_1d
 
 
